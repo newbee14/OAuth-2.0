@@ -1,0 +1,42 @@
+{
+	"name": "auth",
+	"version": "1.0.0",
+	"description": "authentication service for exsete",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/newbee14/OAuth-2.0.git"
+	},
+	"dependencies":{
+		"bcrypt-nodejs":"^0.0.3",
+		"body-parser":"^1.17.1",
+		"cookie-parser":"^1.4.3",
+		"crypto":"^0.0.3",
+		"express":"^4.15.2",
+		"express-session": ">=1.15.0",
+		"lodash":"^4.17.4",
+		"md5":">=2.0.0",
+		"moment":"^2.18.1",
+		"mongodb":"^2.2.25",
+		"mongoose":"^4.9.3",
+		"oauth2orize":"^1.8.0",
+		"passport":"^0.3.2",
+		"passport-facebook":"^2.1.1",
+		"passport-google-oauth":"^1.0.0",
+		"passport-http":"^0.3.0",
+		"passport-http-bearer":"^1.0.1",
+		"uid2":"^0.0.3",
+		"winston":">=2.3.1",
+		"winston-daily-rotate-file":">=1.4.4"
+	},
+	"scripts":{
+		"start":"supervisor app.js",
+		"test":"node app.js"
+	},
+	"author": "udbhav and ashish",
+	"license": "ISC",
+	"homepage": "https://github.com/newbee14/OAuth-2.0
+}
