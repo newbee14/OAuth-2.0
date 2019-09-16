@@ -36,7 +36,7 @@
 		"start":"supervisor app.js",
 		"test":"node app.js"
 	},
-	"author": "udbhav and ashish",
+	"author": "ashish",
 	"license": "ISC",
 	"homepage": "https://github.com/newbee14/OAuth-2.0
 }
